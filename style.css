@@ -102,3 +102,43 @@
     color: #8e8d99;
     margin-bottom: 50px;
   }
+  /* getin part */
+  .getin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 115px;
+    margin-top: 137px;
+  }
+  .getin h3{
+    font-size: 97px;
+    font-weight: bold;
+    width: 528px;
+  }
+  .getin form label{
+    
+  }
+
+  .getin input[type="text"], .getin input[type="email"]{
+   
+    border-radius: 10px;
+    background-color: #fff;
+    display: block;
+    width: 497px; 
+    padding: 20px 30px;
+    margin-bottom: 19px;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    margin-top: 10px;
+    font-size: 20px;
+    
+   }
+   .getin textarea{
+    margin-top: 10px;
+    width: 497px; 
+    height: 135px;
+    margin-bottom: 19px;
+   }
+  .getin form button{
+    width: 497px;
+  }
